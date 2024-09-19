@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project_25.srcs/sources_1/new/Thermostat_FSM.vhd" \
+"../../../../project_25.srcs/sim_1/new/Thermostat_UUT.vhd" \
+
+# Do not sort compile order
+nosort
